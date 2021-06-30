@@ -38,10 +38,6 @@ function saveRecord(record) {
 
 	// add record to store with add method
 	transactionObjectStore.add(record);
-
-	alert(
-		"Transaction added successfully. To be updated when internet connection is restored. "
-	);
 }
 
 // function that uploads transaction from IndexedDB
