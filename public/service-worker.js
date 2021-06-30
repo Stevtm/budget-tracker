@@ -5,10 +5,10 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 
 // define the files to be cached by the service worker
 const FILES_TO_CACHE = [
-	"./css/styles.css",
-	"./js/idb.js",
-	"./js/index.js",
-	"./index.html",
+	"/css/styles.css",
+	"/js/idb.js",
+	"/js/index.js",
+	"/index.html",
 ];
 
 self.addEventListener("install", function (e) {
