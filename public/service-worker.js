@@ -5,11 +5,11 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 
 // define the files to be cached by the service worker
 const FILES_TO_CACHE = [
-	"/css/styles.css",
-	"/js/idb.js",
-	"/js/index.js",
-	"/index.html",
-	"/api/transaction",
+	// "/css/styles.css",
+	// "/js/idb.js",
+	// "/js/index.js",
+	// "/index.html",
+	// "/api/transaction",
 	"/manifest.json",
 	"/icons/icon-512x512.png",
 	"/icons/icon-384x384.png",
